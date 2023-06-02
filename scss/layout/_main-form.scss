@@ -1,0 +1,106 @@
+/* forms*/
+
+:root{
+    --colortextos:#7473c0;
+}
+.form__container{
+    main{
+        text-align: left;
+        background: #B993D6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        form{
+            background-color: #ffff;
+            padding: 20px 0;
+            box-shadow: 0 0 6px 0 rgba(255, 255,255, 0.8) ;
+            border-radius: 10px;
+            div{
+                h1{
+                    text-align: center;
+                    font-weight: 700;
+                    color: #245BA7;
+                    font-family: $font-family_h1;
+                }
+                .grupo{
+                    position: relative;
+                    margin: 40px 30px;
+                    input{
+                        background-color: none ;
+                        color: #c6c6c6;
+                        font-size: $font-size_h1 ;
+                        padding: 10px 10x 10px 5px;
+                        display: block;
+                        width: 100%;
+                        border: none ;
+                        border-bottom: 1px solid var(--colortextos);
+                    }
+                    label{
+                        color: var(--colortextos);
+                        font-size: 16px ;
+                        font-family: raleway-regular;
+                        position: absolute;
+                        bottom:0 ;
+                        left: 5px;
+                        transform: 0.5s ease all;
+                        pointer-events: none;
+                    }
+                }
+
+                button{
+                    background: #B993D6;  /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    border: none;
+                    display: block;
+                    width: 80%;
+                    margin: 10px auto;
+                    color: white;
+                    height: 40px;
+                    font-size: 16px;
+                    font-family: raleway-regular;
+                    cursor: pointer;
+                    border-radius: 10px;
+                }
+            }
+        }
+        
+        input:focus{outline: none;
+        color: #5e5d5d;}
+        input:focus~label,
+        input:valid~label{
+            top: -14px;
+            font-size: 12px;
+            color: #2196f3;
+        }
+            .barra{
+                position: relative;
+                display: block;
+                width: 100%;
+            }
+
+        .barra::before{
+            content: "";
+            height: 2px;
+            width: 0%;
+            bottom: 0;
+            position: absolute;
+            background: linear-gradient(to right, #8CA6DB, #B993D6);
+            transition: 0.3s ease width ;
+            left: 0;
+        }
+
+        input:focus~.barra::before{
+            width: 100%;
+        }
+
+        @media screen and (max-width: 500px )
+        {
+            form{width: 80%;}
+        }
+    }
+}

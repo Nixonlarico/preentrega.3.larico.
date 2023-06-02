@@ -1,0 +1,68 @@
+/*catalogo carro metalico*/
+.category-autosescala{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+$font-size_h1: 25px;
+    .title__category{font-size: $font-size_h1;
+        font-family: $font-family_h1; 
+        padding: 20px 10px;
+        text-align: center;
+        color: #245BA7;
+        
+    }
+    .card__container{
+        .card{
+            margin: 10px;
+            width: auto;
+            border: 1px solid #7CC8C5;
+            border-radius: 10px;
+            text-align: center;
+                .card__img{width: 100% ;
+                    text-align: center;
+                padding: 10px;}
+                .card__pricecontainer{
+                    margin: 5px;
+                    display: flex;
+                    justify-content: center;
+                    .card__pricecontainer-text{
+                        font-family: raleway-regular;
+                        padding: 0px;
+                    }
+                    .card__pricecontainer-number{
+                        font-family: raleway-regular;
+                        padding: 0px;
+                    }
+                }
+                .card__status{
+                    font-size: 12px;
+                    color: green;
+                    margin: 5px;
+                    font-family: raleway-black;
+                    text-align: center;
+                    padding: 2px ;
+                }
+                .card__name{
+                    font-size: 14px;
+                    text-align: center;
+                    margin: 5px;
+                    font-family: raleway-bold;
+                    padding: 5px;
+                }
+                button{
+                    background: #972de8;  /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #98e2e0, #9c9bba);  /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #9c9bba, #98e2e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                    font-size: 15px;
+                    justify-content: center;
+                    padding: 5px 10px;
+                    margin: 8px;
+                    color: white;
+                    border-radius: 12px;
+                    font-family: raleway-black;
+                    border: 2px solid white;
+                }
+            }
+    }
+}

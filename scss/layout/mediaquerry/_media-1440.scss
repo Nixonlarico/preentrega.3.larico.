@@ -1,0 +1,68 @@
+@media (min-width: 1440px){
+
+    //* Media query PREGUNTAS    *//
+    .ask{
+        margin: 20px 400px;
+        h1{}
+        .container__tittle{font-size: 20px;}
+        .container{
+            p{font-size: 18px;
+                margin: 10px;
+            }
+            section{
+                .container__card{
+                    p{font-family: raleway-medium;
+                        font-size: 18px;
+                    }
+                }
+            }
+                img{width: 600px;}
+            
+        }
+    }
+
+    //* Media query PREGUNTAS   *//
+    .main__category{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        h1{}
+        .card__link{
+            margin: 0px 495px;
+            align-items: center;
+            .main__contentcategory{
+                width:450px;
+                margin: 0px;
+                padding: 20px 0px ;
+                .card_containercategory{
+                    margin: 0px;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+    //* Media query NOSOTROS    *//
+    main{
+        margin: 20px 380px;
+        h1{}
+        p{font-size: 18px;
+        margin: 20px;}
+        img{width: 300px;}
+        h2{font-size: 18px;}
+        .main__direccion{font-size: 19px;
+        margin: 5px;}
+    }
+    
+    //*Media query FORM*//
+    .form__container {
+        main{
+            form{
+                width: 700px;
+            }
+        }
+    }
+}
+
+footer{
+justify-content: center;}

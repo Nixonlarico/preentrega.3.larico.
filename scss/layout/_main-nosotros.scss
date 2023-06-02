@@ -1,0 +1,35 @@
+/*Nosotros body*/
+main{
+    text-align: center;
+    margin: 15px;
+    .main__us{
+        font-family: $font-family_h1;
+        font-size: $font-size_h1;
+        padding: 20px 10px;
+        color: #245BA7;
+    }
+    p{
+        font-size: 16px;
+        padding: 10px;
+        text-align: justify;
+        font-family: raleway-regular;
+
+    }
+    img{
+        justify-content: center;
+        width: 150px;
+    }
+
+    h2{
+        padding: 25px 15px 0px 15px;
+        font-family: raleway-black;
+        font-size: 20px;
+    }
+
+    .main__direccion{
+        text-align: center;
+        padding: 5px;
+        font-family: raleway-medium;
+        font-size: 15px;
+    }
+}

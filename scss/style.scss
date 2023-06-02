@@ -1,0 +1,19 @@
+/* mixin*/
+@import"./utilities/variables";
+@import"./utilities/mixin";
+
+@import"../scss/base/reset";
+@import"../scss/base/typo";
+@import"../scss/base/selector";
+@import"./layout/header";
+@import"./layout/main-index";
+@import"./layout/footer";
+@import"./layout/main-nosotros";
+@import"./layout/main-preguntas";
+@import"./layout/main-form";
+@import"./layout/main-catalogo";
+
+/*Media query */
+@import"./layout/mediaquerry/media-768";
+@import"./layout/mediaquerry/media-1024";
+@import"./layout/mediaquerry/media-1440";

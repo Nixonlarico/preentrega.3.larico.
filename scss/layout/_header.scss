@@ -1,0 +1,34 @@
+/*Header*/
+header{
+    background-color:#1e1246;
+    height: auto;
+    text-align: center;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+    @include flex (column,none,center,none) ;
+
+    .nav__logo img{
+        margin-top: 13px;
+        width: 200px;
+    }
+
+    .nav__menu {
+        list-style-type: none;
+
+
+            li{
+                height: 25px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgb(194, 194, 194) #1e1246;
+
+
+            a{
+                color: white;
+                text-decoration: none;
+                }
+            }
+        }
+    }

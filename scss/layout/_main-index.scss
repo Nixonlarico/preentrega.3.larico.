@@ -1,0 +1,39 @@
+/*body categorias */
+
+.main__category{
+    h1{font-size: $font-size_h1;
+        padding: 10px;
+        font-family: $font-family_h1;
+        color: #245BA7;
+    }
+    .card__link{
+        text-decoration: none;
+        
+        .main__contentcategory{
+            padding: 10px;
+            margin: 10px;
+
+            .card_containercategory{
+                display: flex;
+                border: 1px solid #7CC8C5;
+                border-radius: 5px;
+
+                img{background-color: white;
+                    width: 60px;
+                padding: 5px;}
+
+                .containertext{ background: #dcc5ee;  /* fallback for old browsers */
+                    background: -webkit-linear-gradient(to right, #7473c0, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+                    background: linear-gradient(to right, #a5d4d1, #bfbeeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+                    h2{padding: 10px;
+                    color:white;
+                }
+                    p{padding: 15px;
+                    font-family: raleway-medium;
+                }
+                }
+            }
+        }
+    }
+}

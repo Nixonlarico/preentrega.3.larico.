@@ -1,0 +1,81 @@
+@media (min-width: 1024px){
+
+    //*Media query CATEGORIA*//
+    .main__category{
+        /*
+        display: flex;
+        flex-direction: column;*/
+        @include flex(column,none,none,none);
+        margin: 0px;
+        h1{}
+        .card__link{
+            margin: 0px 322px;
+            align-items: center;
+            .main__contentcategory{
+                width: 380px;
+                margin: 0px;
+                padding: 20px 0px ;
+                .card_containercategory{
+                    margin: 0px;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+
+        //* Media query PREGUNTAS    *//
+        .ask{
+            margin: 20px 250px;
+            h1{}
+            .container__tittle{font-size: 20px;}
+            .container{
+                p{font-size: 18px;
+                    margin: 10px;
+                }
+                .container__card{
+                    p{font-family: raleway-medium;
+                        font-size: 18px;
+                    }
+                }
+                img{width: 500px;}
+            }
+        }
+    
+        //* Media query NOSOTROS    *//
+        main{
+            margin: 20px 250px;
+            h1{}
+            p{font-size: 18px;
+            margin: 20px;}
+            img{width: 300px;}
+            h2{font-size: 18px;}
+            .main__direccion{font-size: 19px;
+            margin: 5px;}
+        }
+
+/* catalogo*/
+.category-autosescala{
+    margin: 20px 100px;
+    h1{}
+    .card__container{
+        /*
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;*/
+        @include flex(none,wrap,center,none);
+        .card{
+            width: 370px;
+            .card__img{
+                width: 370px;}
+            .card__name{font-size: 17px;}
+            .card__pricecontainer{
+                .card__pricecontainer-text{margin: 2px;}
+                .card__pricecontainer-number{margin: 2px;}
+            }
+            .card__status{font-size: 15px;}
+            button{font-size: 17px;
+            margin: 10px 0px 20px;}
+            }
+        }
+    }
+}

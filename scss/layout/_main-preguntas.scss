@@ -1,0 +1,45 @@
+/* preguntas frecuentes*/
+
+.ask{
+    margin: 20px;
+    h1{font-family:$font-family_h1;
+    font-size: $font-size_h1;
+    padding: 20px 10px;
+    color: #245BA7;}
+    .container__tittle{
+        font-size: 14px;
+        font-family: raleway-semibold;
+        padding: 10px;
+        background-color: #7473c0;
+        color: white;
+        border-radius: 10px;
+    }
+    .container{
+        margin-top: 12px;
+        p{
+            padding: 5px;
+            font-size: 13px;
+            font-family: raleway-regular;
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 5px;
+            
+            .container__card{
+                p{
+                    text-align: center;
+                    font-size: 12px;
+                }
+                img{
+                    width: 70px;
+                }
+            }
+            }
+    }
+    .container__img-cobertura{
+        width: 280px;
+    }
+
+}

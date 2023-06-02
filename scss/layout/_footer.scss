@@ -1,0 +1,65 @@
+/*footer*/
+
+footer{
+    background-color:$background-color_footer;
+    height: auto;
+    justify-content: center;
+    h2{
+        font-size: 12px;
+        text-align: center;
+        padding: 10px;
+        color: whitesmoke;
+        font-family: raleway-thin;
+
+    }
+
+    .footer__redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        h2{
+            font-size: 12px;
+            text-align: center;
+            margin: 5px;
+            color: whitesmoke;
+            font-family: raleway-thin;
+        }
+        .footer__redes__item{
+            margin: 5px;
+            img{
+                width: 20px;
+            }
+        }
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        padding: 6px;
+
+        li{
+            font-size: 11px;
+            text-align: left;
+            width: auto;
+            a{
+                text-decoration: whitesmoke;
+                color: whitesmoke;
+                font-family: raleway-regular;
+
+            }
+        }
+    }
+
+    .footer__contenido{
+        display: flex;        
+        p{
+            font-size: 13px;
+            color: whitesmoke;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            font-family: raleway-semibold;
+        }
+    }
+}
